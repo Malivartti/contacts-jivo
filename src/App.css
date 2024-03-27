@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.content {
+  min-height: calc(100vh - 64px);
+}
+
+.card .ant-card-body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.user {
+  margin-right: auto;
+}
+
+.contactAct {
+  display: flex;
+  margin-bottom: 20px;
+}
